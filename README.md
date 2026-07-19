@@ -1,21 +1,28 @@
-##To-Do Web App
+# To-Do Web App
+## Description
 
-##Description
-The To-Do Web App is a simple and interactive task management application built using HTML, CSS, and JavaScript. It allows users to create, organize, update, and manage daily tasks efficiently by adding task details along with a date and time.
+The To-Do Web App is a simple and user-friendly task management application that helps users organize their daily activities efficiently. It allows users to create, update, complete, and delete tasks, making it easier to stay productive and manage time effectively. The application features a clean and responsive interface that works seamlessly across desktop and mobile devices.
 
-##Features
---Add new tasks with date and time.
---Mark tasks as completed.
---Edit existing tasks.
---Delete tasks.
---Separate Pending and Completed task sections.
---Responsive and user-friendly interface.
---Clean and modern UI design.
+---
 
-##Technologies Used
---HTML5
---CSS3
---JavaScript (ES6)
+## Features
 
-##Author
-Nayana M
+- ➕ Add new tasks
+- ✏️ Edit existing tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 📋 View all tasks in an organized list
+- 🔍 Filter tasks (All, Active, Completed)
+- 💾 Data persistence using Local Storage
+- 📱 Responsive design for mobile and desktop
+
+---
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
+  
+  ## Author
+  Nayana M
+
