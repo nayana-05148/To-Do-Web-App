@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>To-Do Web App</h1>
+        
+        <!-- Input Form Section -->
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Enter Task">
+        </div>
+        <div class="input-group">
+            <input type="date" id="taskDate">
+        </div>
+        <div class="input-group">
+            <input type="time" id="taskTime">
+        </div>
+        
+        <!-- Properly formatted button -->
+        <button class="add-btn" id="addBtn" onclick="saveTask()">Add Task</button>
+
+        <!-- Dynamic Content Lists -->
+        <h2>Pending Tasks</h2>
+        <ul id="pendingList" class="task-list"></ul>
+
+        <h2>Completed Tasks</h2>
+        <ul id="completedList" class="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
